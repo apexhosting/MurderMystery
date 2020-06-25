@@ -1,0 +1,58 @@
+instances:
+  default:
+    lobbylocation: world,364.0,63.0,-72.0,0.0,0.0
+    Endlocation: world,364.0,63.0,-72.0,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 10
+    mapname: mapname
+    world: worldname
+    signs: []
+    isdone: false
+    playerspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    goldspawnpoints:
+    - world,364.0,63.0,-72.0,0.0,0.0
+    mystery-cauldrons:
+    - world,364.0,63.0,-72.0,0.0,0.0
+  Mansion:
+    lobbylocation: Murder_world,13423.433638122831,72.0625,2853.2467259143045,-177.76616,0.0
+    Startlocation: Murder_world,13422.0,64.0,2857.0,0.0,0.0
+    Endlocation: Murder_world,13423.433638122831,72.0625,2853.2467259143045,-173.56636,0.0
+    playerspawnpoints:
+    - Murder_world,13422.48409116093,64.0625,2858.175245974262
+    - Murder_world,13411.543578080582,64.0625,2861.818394867715
+    - Murder_world,13423.571382677266,64.0,2875.3803773587006
+    - Murder_world,13411.619485894356,64.0,2893.43098031589
+    - Murder_world,13427.7172355073,64.0625,2901.5226939176378
+    - Murder_world,13403.382417248333,64.0,2912.606746911902
+    - Murder_world,13451.743516413571,64.0,2853.852517422678
+    - Murder_world,13435.521810462751,64.0,2862.281807979096
+    - Murder_world,13435.36471569506,64.5,2882.9479666753373
+    - Murder_world,13451.763624312991,64.5,2877.7471259520767
+    - Murder_world,13450.69561331567,64.0,2884.9965150277403
+    - Murder_world,13451.250150110767,64.5,2909.947384264973
+    - Murder_world,13451.623859270456,64.0,2917.7088786669283
+    - Murder_world,13434.543949968478,64.0,2916.8422637818144
+    goldspawnpoints:
+    - Murder_world,13443.411149885787,64.0,2853.573806833924
+    - Murder_world,13435.52373623251,64.0,2873.595823570612
+    - Murder_world,13443.360155813536,64.0,2917.4178331606217
+    - Murder_world,13403.386320305422,64.0,2853.576969346401
+    - Murder_world,13407.43325757985,64.0625,2877.7132716702768
+    - Murder_world,13403.573753915758,64.0,2885.5669874050855
+    - Murder_world,13419.493170803948,64.0,2885.4304887846397
+    - Murder_world,13403.584866961426,64.0,2917.633722201897
+    minimumplayers: 2
+    maximumplayers: 15
+    mapname: Mansion
+    signs:
+    - Murder_world,13423,73,2850,0.0,0.0
+    isdone: true
+    world: Murder_world
+    mystery-cauldrons:
+    - Murder_world,13427.0,64.0,2857.0
+    - Murder_world,13427.0,64.0,2860.0
+    - Murder_world,13419.0,64.0,2860.0
+    - Murder_world,13419.0,64.0,2857.0
+    confessionals:
+    - Murder_world,13451.0,64.0,2917.0
