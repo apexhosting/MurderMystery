@@ -118,6 +118,7 @@ Bossbar:
   Game-Ended: "&c&lGame has ended! You were playing on &b&lPLAJER.XYZ"
 
 In-Game:
+  Join-As-Party-Member: "&cYou joined %ARENANAME% because the party leader joined it!"
   #Used in most game messages.
   Plugin-Prefix: "&4[Murder Mystery] "
   Already-Playing: "&cYou are already queued for a game! You can leave a game with /mm leave."
@@ -145,6 +146,7 @@ In-Game:
       Speed-Name: "&aSpeed"
   Messages:
     Lobby-Messages:
+      Not-Enough-Space-For-Party: "&cYour party is bigger than free places on the arena %ARENANAME%"
       Start-In: "&7The game starts in &b%TIME%&7 seconds!"
       Waiting-For-Players: "&7Waiting for players... We need at least &b%MINPLAYERS%&7 players to start."
       Enough-Players-To-Start: "&7We now have enough players. The game is starting soon!"
@@ -284,4 +286,12 @@ Validator:
 
 # Don't edit it. But who's stopping you? It's your server!
 # Really, don't edit ;p
-File-Version-Do-Not-Edit: 1
+File-Version-Do-Not-Edit: 3
+Arena-Selector:
+  Inv-Title: "Arena selector"
+  Item:
+    Lore:
+      - "&4Murder Mystery"
+      - "&7%state%"
+      - "&c%mapname%"
+      - "&5[%playersize%/%maxplayers%]"
