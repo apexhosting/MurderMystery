@@ -128,6 +128,20 @@ Detective-Default-Arrows: 3
 
 #How much arrows should the player get when the prayer gives a bow to him?
 Detective-Prayer-Arrows: 2
+#Should Detectives be killed if they kill a innocent?
+Enable-Kill-Detective-If-Innocent-Killed: true
+
+#Should we change spawner mode to spawn on all spawners instant of random one
+Change-Gold-Spawner-Mode-To-All: false
+
+#Should we disable the gold spawn limit (It does not spawn more gold than spawner locations)
+Disable-Gold-Limiter: false
+
+#How much gold should a player need to get a bow
+Gold-For-Bow: 10
+# Should we disable all chat related stuff?
+# It will disable the separated chat, for example
+Disable-Separate-Chat: false
 # Don't modify
-Version: 8
+Version: 18
 # No way! You've reached the end! But... where's the dragon!?
