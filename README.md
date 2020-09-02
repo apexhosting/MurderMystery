@@ -1,4 +1,5 @@
-# MurderMystery
+# Murder Mystery
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Murder+Mystery+Thumbnail.png)
 
 ## Plugin List
 [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
