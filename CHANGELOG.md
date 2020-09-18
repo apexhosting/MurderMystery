@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+ 
+### Changed
+- Update Core Protect from 19.1 to 19.2
+- Update Murder Mystery from version 1.6.2 to 1.6.2-b2
+- Update Namte Tag Edit from 4.4.10 to Custom Build
+- Update ProtocolLib from version 4.5.1 Build 478 to 4.6.0 Build 480
+- Update WorldEdit from version 7.2.0 to 7.2.0 Beta 1
+
 ## [2.0]
 
 ### Added
@@ -26,8 +35,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
 
+[2.1]: https://github.com/apexhosting/MurderMystery/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/MurderMystery/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/MurderMystery/releases/tag/1.0
