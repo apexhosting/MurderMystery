@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.2]
+ 
+### Changed
+- Update to Minecraft 1.16.5
+- Update all plugins
+
 ## [2.1]
  
 ### Changed
@@ -35,7 +41,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
-
+[2.2]: https://github.com/apexhosting/MurderMystery/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/MurderMystery/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/MurderMystery/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/MurderMystery/releases/tag/1.0
