@@ -142,6 +142,23 @@ Gold-For-Bow: 10
 # Should we disable all chat related stuff?
 # It will disable the separated chat, for example
 Disable-Separate-Chat: false
+#Should there be a innocent locator
+Enable-Innocent-Locator: true
+
+Arena-Selector:
+  Items:
+    waiting-for-players: lime_concrete
+    starting: yellow_concrete
+    other: red_concrete
+
+#Add trails that you want to blacklist from all trails(particles)
+Blacklisted-Trails:
+  - "elder_guardian"
+  - "block_crack"
+  - "item_crack"
+  - "block_dust"
+# Should the /mma delete command awaits the confirmation to delete the arena?
+Deleting-Arena-Needs-Confirmation: true
 # Don't modify
-Version: 18
+Version: 24
 # No way! You've reached the end! But... where's the dragon!?

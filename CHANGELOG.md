@@ -1,6 +1,24 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0]
+ 
+### Changed
+- Updated to 1.17
+- Updated Murder Mystery✔️
+- Updated Worldguard ✔️
+- Updated Worldedit ✔️
+- Updated TitleManager ✔️
+- Updated Holographic Displays ✔️
+- Updated TAB ✔️
+- Updated Protocol Support✔️
+- Updated ProtocolLib ✔️
+
+#New features
+- Replaced PermissionsEX with Luckperms as the permissions manager.🆕
+- Added new TAB.🆕
+- Added new MOTD & Icon.🆕
+
 ## [2.2]
  
 ### Changed
@@ -41,6 +59,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial commit of pack to Github for version control
 
+[3.0]: https://github.com/apexhosting/MurderMystery/releases/tag/3.0
 [2.2]: https://github.com/apexhosting/MurderMystery/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/MurderMystery/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/MurderMystery/releases/tag/2.0
