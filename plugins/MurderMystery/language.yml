@@ -79,7 +79,7 @@ Scoreboard:
       - ""
       - "&fScore: &e%SCORE%"
       - ""
-      - "&ewww.plajer.xyz"
+      - "&emm.apexmc.co"
     # Contents of scoreboard for murderer
     Playing-Murderer:
       - "&fRole: %ROLE%"
@@ -93,13 +93,13 @@ Scoreboard:
       - ""
       - "&fScore: &e%SCORE%"
       - ""
-      - "&ewww.plajer.xyz"
+      - "&emm.apexmc.co"
     Waiting:
       - "&fPlayers: &e%PLAYERS%"
       - ""
       - "&fMinimum Players: &e%MIN_PLAYERS%"
       - ""
-      - "&ewww.plajer.xyz"
+      - "&emm.apexmc.co"
     Starting:
       - "&fStarting In: &e%TIME%"
       - ""
@@ -107,7 +107,7 @@ Scoreboard:
       - ""
       - "&fMinimum Players: &e%MIN_PLAYERS%"
       - ""
-      - "&ewww.plajer.xyz"
+      - "&emm.apexmc.co"
 
 # Has usage only when bossbar is enabled in config.yml
 Bossbar:
@@ -118,6 +118,24 @@ Bossbar:
   Game-Ended: "&c&lGame has ended! You were playing on &b&lPLAJER.XYZ"
 
 In-Game:
+  Role-Pass:
+    Menu-Name: "Role pass menu"
+    Role:
+      Murderer:
+        Name: "Be murderer"
+        Lore:
+          - "Cost 1 murderer pass"
+          - "You got %amount%"
+      Detective:
+        Name: "Be detective"
+        Lore:
+          - "Cost 1 detective pass"
+          - "You got %amount%"
+    Fail: "You do not got enough passes for %role% role"
+    Success: "You will be %role% next round!"
+    Change: "You now got %amount% %role% passes!"
+
+  Game-Death-Format: "&7[&4☠&7] &r"
   Join-As-Party-Member: "&cYou joined %ARENANAME% because the party leader joined it!"
   #Used in most game messages.
   Plugin-Prefix: "&4[Murder Mystery] "
@@ -137,6 +155,8 @@ In-Game:
   Watch-Out-Title: "&cWatch out!"
   Watch-Out-Subtitle: "&eThe Murderer can now find survivors easily"
   Spectator:
+    Target-Player-Health: "&cHealth: &7%health%"
+
     Spectator-Item-Name: "&7Players list"
     Spectator-Menu-Name: "Alive players list"
     Target-Player-Role: "&7Role: %ROLE%"
@@ -284,14 +304,22 @@ Validator:
   Instance-Started: "[Murder Mystery] Arena %arena% instance successfully started!"
   No-Instances-Created: "[Murder Mystery] There are no arena instances created in configuration!"
 
-# Don't edit it. But who's stopping you? It's your server!
-# Really, don't edit ;p
-File-Version-Do-Not-Edit: 3
 Arena-Selector:
   Inv-Title: "Arena selector"
   Item:
+    Name: "&f%mapname%"
     Lore:
       - "&4Murder Mystery"
       - "&7%state%"
       - "&c%mapname%"
       - "&5[%playersize%/%maxplayers%]"
+Placeholders:
+  Game-States:
+    Waiting: "&lWaiting for players..."
+    Starting: "&e&lStarting"
+    In-Game: "&lPlaying"
+    Ending: "&lEnding"
+    Restarting: "&c&lRestarting"
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+File-Version-Do-Not-Edit: 8

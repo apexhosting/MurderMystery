@@ -1,9 +1,0 @@
-groups:
-  Member:
-    options:
-      default: true
-    permissions:
-    - modifyworld.*
-    - murdermystery.join.*
-schema-version: 1
-users: {}

@@ -12,10 +12,10 @@
 regions:
     __global__:
         members: {}
-        flags: {block-trampling: deny, lighter: deny, vehicle-destroy: deny, chest-access: deny,
-            pvp: allow, mob-spawning: deny, ride: deny, firework-damage: deny, vehicle-place: deny,
-            item-frame-rotation: deny, potion-splash: allow, damage-animals: deny,
-            tnt: deny}
+        flags: {use: allow, block-trampling: deny, lighter: deny, vehicle-destroy: deny,
+            chest-access: deny, pvp: allow, firework-damage: deny, mob-spawning: deny,
+            ride: deny, vehicle-place: deny, build: deny, item-frame-rotation: deny,
+            potion-splash: allow, damage-animals: deny, tnt: deny}
         owners: {}
         type: global
         priority: 0
