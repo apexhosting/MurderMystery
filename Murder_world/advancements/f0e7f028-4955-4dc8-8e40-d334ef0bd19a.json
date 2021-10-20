@@ -1,9 +1,0 @@
-{
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2021-10-20 17:22:20 +0000"
-    },
-    "done": true
-  },
-  "DataVersion": 2730
-}
