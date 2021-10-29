@@ -10,10 +10,30 @@ c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
 f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
   contribdetective: 1
   contribmurderer: 1
-  deaths: 0
-  gamesplayed: 0
-  highestscore: 0
-  kills: 0
-  loses: 0
-  wins: 0
+  deaths: 2
+  gamesplayed: 3
+  highestscore: 30
+  kills: 1
+  loses: 2
+  wins: 1
   murderer_pass: 0
+  local_pray: 0
+  gold: 0
+  local_kills: 0
+  local_praises: 0
+  local_score: 30
+bdc83502-6d75-4c26-a633-729e9ed81aee:
+  contribdetective: 1
+  contribmurderer: 1
+  deaths: 1
+  gamesplayed: 3
+  highestscore: 0
+  kills: 2
+  loses: 1
+  wins: 2
+  murderer_pass: 0
+  local_pray: 0
+  gold: 0
+  local_kills: 0
+  local_praises: 0
+  local_score: 300
