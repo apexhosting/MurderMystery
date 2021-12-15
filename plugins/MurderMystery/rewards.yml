@@ -37,20 +37,20 @@
 rewards:
   # Commands performed when game is finished
   endgame:
-    - say %MAPNAME% has ended!
-    - say Ooh and there were playing %PLAYERAMOUNT% players
+    - tell %PLAYER% &7(&e&l!&7) &c&l%MAPNAME% &7has &cended!
   # Commands executed when detective is killed
   detectivekill:
-    - eco give %PLAYER% 2
-    - chance(10):eco give %PLAYER% 8
+    - eco give %PLAYER% 100
+    - tell %PLAYER% &c&lKILL &7+100&a$ 
   # Commands executed when murderer is killed
   murdererkill:
-    - eco give %PLAYER% 2
-    - chance(10):eco give %PLAYER% 8
+    - eco give %PLAYER% 50
+    - tell %PLAYER% &c&lKILL &7+50&a$ 
   # Commands executed when player wins the game
   win:
-    - say I won the game!
+    - tell %PLAYER% &a&lWINNER &7congrats, you won the game!
+    - eco give %PLAYER% 300
   # Commands executed when player loses the game
   lose:
-    - say I lost the game!
+    - tell %PLAYER% &7better luck next time :(
 

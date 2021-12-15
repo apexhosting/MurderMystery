@@ -1,7 +1,13 @@
 {
-  "minecraft:recipes/tools/golden_hoe": {
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
     "criteria": {
-      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
     "done": true
   },
@@ -11,15 +17,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/map": {
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
     "criteria": {
-      "has_compass": "2021-10-27 18:06:24 +0000"
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_sword": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+      "has_bow": "2021-12-15 16:27:59 +0000"
     },
     "done": true
   },
@@ -29,9 +35,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/golden_apple": {
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
-      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
     "done": true
   },
@@ -44,6 +50,24 @@
   "minecraft:recipes/misc/gold_nugget": {
     "criteria": {
       "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
     "done": true
   },
@@ -77,9 +101,84 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_sword": "2021-10-27 18:06:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2021-10-27 18:06:23 +0000",
+      "minecraft:deep_cold_ocean": "2021-10-27 18:29:00 +0000",
+      "minecraft:river": "2021-10-27 18:06:27 +0000",
+      "minecraft:plains": "2021-12-15 16:28:00 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2021-10-27 18:06:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2021-10-27 18:06:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
     "done": true
   },
@@ -89,13 +188,11 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
-      "minecraft:forest": "2021-10-27 18:06:23 +0000",
-      "minecraft:deep_cold_ocean": "2021-10-27 18:29:00 +0000",
-      "minecraft:river": "2021-10-27 18:06:27 +0000"
+      "has_bed": "2021-12-15 15:57:39 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/tools/golden_shovel": {
     "criteria": {

@@ -73,15 +73,14 @@ Basic-Permissions:
 Disable-Leave-Command: false
 
 # Should players get no fall damage?
-Disable-Fall-Damage: false
+Disable-Fall-Damage: true
 
 # Commands which can be used in game, remove all of them to disable
 Whitelisted-Commands:
-  - me
-  - help
+  - mm leave
 
 # Enable in game rewards? See rewards.yml for more...
-Rewards-Enabled: false
+Rewards-Enabled: true
 
 # Should we block every not Murder Mystery associated commands in game?
 Block-Commands-In-Game: true

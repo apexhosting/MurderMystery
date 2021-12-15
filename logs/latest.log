@@ -1,0 +1,362 @@
+[18:06:52] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18:06:53] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[18:06:53] [Worker-Main-1/INFO]: Loaded 7 recipes
+[18:06:55] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[18:06:55] [Server thread/INFO]: Loading properties
+[18:06:55] [Server thread/INFO]: This server is running Paper version git-Paper-341 (MC: 1.17.1) (Implementing API version 1.17.1-R0.1-SNAPSHOT) (Git: e5f9241)
+[18:06:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:06:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:06:55] [Server thread/INFO]: Default game type: SURVIVAL
+[18:06:55] [Server thread/INFO]: Generating keypair
+[18:06:55] [Server thread/INFO]: Starting Minecraft server on 51.161.132.85:25581
+[18:06:55] [Server thread/INFO]: Using epoll channel type
+[18:06:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[18:06:55] [Server thread/INFO]: Paper: Using OpenSSL 1.0.x (Linux x86_64) cipher from Velocity.
+[18:06:56] [Server thread/ERROR]: [STDERR] [org.bukkit.craftbukkit.v1_17_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[18:07:00] [Server thread/WARN]: Legacy plugin ServerListPlus v3.4.8 does not specify an api-version.
+[18:07:00] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.3.47
+[18:07:00] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.9
+[18:07:00] [Server thread/INFO]: [MurderMystery] Loading MurderMystery v1.7.9-dev12
+[18:07:00] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[18:07:00] [Server thread/INFO]: [PlayerNPC] Loading PlayerNPC v2021.3
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Loading ProtocolSupport v1.17.1-1
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] File log is not enabled
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Detected Spigot server implementation type
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Login threads keep alive time: 60
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Status threads max count: 2, keep alive time: 60
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Packet data pool per io thread capacity: 50 (total ~200 spread to 4 io threads)
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Assume 1.5.2 ping delay: 100
+[18:07:00] [Server thread/INFO]: [ProtocolSupport] Assume legacy ping delay: 200
+[18:07:01] [Server thread/INFO]: [ProtocolSupport] Compression level: 3
+[18:07:01] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.7.0
+[18:07:02] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[18:07:02] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.6+4b2d1e7
+[18:07:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2cb24648]
+[18:07:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.1-dev+39-f8ca1ba
+[18:07:02] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.19.1-dev+39-f8ca1ba
+[18:07:02] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.4-DEV-124
+[18:07:02] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[18:07:02] [Server thread/INFO]: [Corpses] Loading Corpses v2021.1
+[18:07:02] [Server thread/INFO]: [TAB] Loading TAB v2.9.2
+[18:07:02] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[18:07:02] [Server thread/INFO]: [ServerListPlus] Loading ServerListPlus v3.4.8
+[18:07:02] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.6+1cff55f
+[18:07:02] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.5
+[18:07:02] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.29-SNAPSHOT (build 2428)
+[18:07:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:07:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.3.47
+[18:07:02] [Server thread/INFO]:         __    
+[18:07:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.3.47
+[18:07:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[18:07:02] [Server thread/INFO]: 
+[18:07:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[18:07:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[18:07:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[18:07:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[18:07:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 867ms)
+[18:07:03] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[18:07:03] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.1-dev+39-f8ca1ba which is not a depend, softdepend or loadbefore of this plugin.
+[18:07:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[18:07:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[18:07:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[18:07:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[18:07:03] [Server thread/INFO]: [ProtocolSupport] Enabling ProtocolSupport v1.17.1-1
+[18:07:03] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.7.0
+[18:07:03] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[18:07:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.6+4b2d1e7
+[18:07:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[18:07:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[18:07:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_17_R1_2 as the Bukkit adapter
+[18:07:04] [Server thread/INFO]: Preparing level "Murder_world"
+[18:07:04] [Server thread/INFO]: -------- World Settings For [Murder_world] --------
+[18:07:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:07:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:07:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:07:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:07:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:07:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:07:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:07:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:07:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:07:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:07:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:07:04] [Server thread/INFO]: View Distance: 10
+[18:07:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:07:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:07:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:07:04] [Server thread/INFO]: Mob Spawn Range: 8
+[18:07:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:05] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:06] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:06] [Server thread/INFO]: Time elapsed: 1325 ms
+[18:07:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.9
+[18:07:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[18:07:06] [Server thread/INFO]: [MurderMystery] Enabling MurderMystery v1.7.9-dev12
+[18:07:06] [Server thread/INFO]: [MurderMystery] Connecting to services, please wait! Server may freeze a bit!
+[18:07:08] [Server thread/INFO]: [MurderMystery] Hooked with ServiceRegistry! Initialized services properly!
+[18:07:08] [Server thread/INFO]: [MurderMystery] Fetched latest localization file from repository.
+[18:07:08] [Server thread/INFO]: [Murder Mystery] Loaded locale English (English ID: en_GB) by Plajer
+[18:07:08] [Server thread/INFO]: [Murder Mystery] Locale en_GB is latest! Awesome!
+[18:07:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: murdermystery
+[18:07:08] [Server thread/INFO]: [Murder Mystery] Arena Mansion instance successfully started!
+[18:07:08] [Server thread/INFO]: -------- World Settings For [MM-SantaFactory] --------
+[18:07:08] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:07:08] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:07:08] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:07:08] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:07:08] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:07:08] [Server thread/INFO]: Max TNT Explosions: 100
+[18:07:08] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:07:08] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:07:08] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:07:08] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:07:08] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:07:08] [Server thread/INFO]: View Distance: 10
+[18:07:08] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:07:08] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:07:08] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:07:08] [Server thread/INFO]: Mob Spawn Range: 8
+[18:07:08] [Server thread/INFO]: Preparing start region for dimension minecraft:mm-santafactory
+[18:07:09] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:09] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:09] [Server thread/INFO]: Time elapsed: 506 ms
+[18:07:09] [Server thread/INFO]: [Murder Mystery] Arena SantaFactory instance successfully started!
+[18:07:09] [Server thread/INFO]: -------- World Settings For [OfficesMM] --------
+[18:07:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:07:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[18:07:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[18:07:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:07:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[18:07:09] [Server thread/INFO]: Max TNT Explosions: 100
+[18:07:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:07:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:07:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:07:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:07:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:07:09] [Server thread/INFO]: View Distance: 10
+[18:07:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[18:07:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:07:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:07:09] [Server thread/INFO]: Mob Spawn Range: 8
+[18:07:09] [Server thread/INFO]: Preparing start region for dimension minecraft:officesmm
+[18:07:09] [Server thread/INFO]: Preparing spawn area: 0%
+[18:07:10] [Server thread/INFO]: Time elapsed: 346 ms
+[18:07:10] [Server thread/INFO]: [Murder Mystery] Arena Offices instance successfully started!
+[18:07:10] [Server thread/INFO]: [MurderMystery] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[18:07:10] [Server thread/INFO]: [MurderMystery] 
+[18:07:10] [Server thread/INFO]: [MurderMystery] Versions: 
+[18:07:10] [Server thread/INFO]: [MurderMystery] Plugin: 1.7.9-dev12 | Server: git-Paper-341 (MC: 1.17.1) | Detected: v1_17_R1 | Software: Paper | Java: 16
+[18:07:10] [Server thread/INFO]: [MurderMystery] 
+[18:07:10] [Server thread/INFO]: [MurderMystery] This plugin was created by Plugily Projects as part of an open source project ( https://donate.plugily.xyz )
+[18:07:10] [Server thread/INFO]: [MurderMystery] 
+[18:07:10] [Server thread/INFO]: [MurderMystery][DEV] We recognize that this is a dev build
+[18:07:10] [Server thread/INFO]: [MurderMystery][DEV] !!!DO NOT USE THIS ON PRODUCTION!!!
+[18:07:10] [Server thread/INFO]: [MurderMystery][DEV] Dev builds are just for test purposes and we do not provide any support to them!
+[18:07:10] [Server thread/INFO]: [MurderMystery] 
+[18:07:10] [Server thread/INFO]: [MurderMystery][SUPPORT] If you have any problems, you can always contact us on our Discord server! ( https://discord.plugily.xyz )
+[18:07:10] [Server thread/INFO]: [MurderMystery][SUPPORT] You can also check out our wiki at https://wiki.plugily.xyz
+[18:07:10] [Server thread/INFO]: [MurderMystery] 
+[18:07:10] [Server thread/INFO]: [MurderMystery]                               The plugin got fully enabled! Enjoy the plugin ;)
+[18:07:10] [Server thread/INFO]: [MurderMystery] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-
+[18:07:10] [Server thread/INFO]: [PlayerNPC] Enabling PlayerNPC v2021.3
+[18:07:10] [Server thread/INFO]: Player NPC | The plugin has been enabled successfully
+[18:07:10] [Server thread/INFO]: Player NPC | Plugin created by SergiFerry
+[18:07:10] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[18:07:10] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[18:07:10] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[18:07:10] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[18:07:10] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[18:07:10] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[18:07:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.1-dev+39-f8ca1ba
+[18:07:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[18:07:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[18:07:10] [Server thread/WARN]: File plugins/Essentials/items.json has been modified by user and file version differs, please update the file manually.
+[18:07:10] [Server thread/INFO]: [Essentials] Loaded 25599 items from items.json.
+[18:07:10] [Server thread/INFO]: [Essentials] Using locale en_US
+[18:07:10] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[18:07:10] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[18:07:10] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[18:07:10] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[18:07:10] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.19.1-dev+39-f8ca1ba
+[18:07:10] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[18:07:10] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.4-DEV-124
+[18:07:10] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[18:07:10] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[18:07:10] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[18:07:10] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[18:07:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus
+[18:07:10] [Server thread/INFO]: [Corpses] Enabling Corpses v2021.1
+[18:07:10] [Server thread/INFO]: Corpses | The plugin has been enabled successfully
+[18:07:10] [Server thread/INFO]: Corpses | Plugin created by SergiFerry
+[18:07:10] [Server thread/INFO]: [TAB] Enabling TAB v2.9.2
+[18:07:10] [Server thread/INFO]: [TAB] Server version: 1.17.1 (v1_17_R1)
+[18:07:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[18:07:10] [Server thread/INFO]: [TAB] Enabled in 46ms
+[18:07:10] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[18:07:11] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[18:07:11] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.4.8*
+[18:07:11] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[18:07:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[18:07:11] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[18:07:11] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[18:07:11] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[18:07:11] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.4.8 enabled.
+[18:07:11] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.6+1cff55f
+[18:07:11] [Server thread/INFO]: [WorldGuard] (Murder_world) TNT ignition is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (Murder_world) Lighters are PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (Murder_world) Lava fire is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (Murder_world) Fire spread is UNRESTRICTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Murder_world'
+[18:07:11] [Server thread/INFO]: [WorldGuard] (MM-SantaFactory) TNT ignition is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (MM-SantaFactory) Lighters are PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (MM-SantaFactory) Lava fire is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (MM-SantaFactory) Fire spread is UNRESTRICTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'MM-SantaFactory'
+[18:07:11] [Server thread/INFO]: [WorldGuard] (OfficesMM) TNT ignition is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (OfficesMM) Lighters are PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (OfficesMM) Lava fire is PERMITTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] (OfficesMM) Fire spread is UNRESTRICTED.
+[18:07:11] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'OfficesMM'
+[18:07:11] [Server thread/INFO]: [WorldGuard] Loading region data...
+[18:07:11] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.5
+[18:07:11] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[18:07:11] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[18:07:11] [Server thread/INFO]: --------------------
+[18:07:11] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[18:07:11] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[18:07:11] [Server thread/INFO]: --------------------
+[18:07:11] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.29-SNAPSHOT (build 2428)
+[18:07:11] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[18:07:11] [Server thread/INFO]: Running delayed init tasks
+[18:07:11] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[18:07:11] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[18:07:11] [Craft Scheduler Thread - 2 - PlayerNPC/INFO]: PlayerNPC version 2021.5 is available (currently running 2021.3).
+Please download it at https://www.spigotmc.org/resources/playernpc.93625/
+[18:07:11] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] Checking for Updates ... 
+[18:07:11] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[18:07:11] [Craft Scheduler Thread - 5 - Corpses/INFO]: Corpses version 2021.5 is available (currently running 2021.1).
+Please download it at https://www.spigotmc.org/resources/corpses.96774/
+[18:07:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[18:07:11] [Server thread/INFO]: 1 placeholder hooks successfully registered!
+[18:07:11] [Craft Scheduler Thread - 1 - Vault/INFO]: [Vault] No new version available
+[18:07:11] [Server thread/INFO]: [Citizens] Loaded 2 NPCs.
+[18:07:11] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.0
+[18:07:11] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[18:07:11] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[18:07:11] [Server thread/INFO]: Done (16.787s)! For help, type "help"
+[18:07:11] [Server thread/INFO]: Timings Reset
+[18:07:12] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] You're 20 EssentialsX dev build(s) out of date!
+[18:07:12] [Craft Scheduler Thread - 0 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[18:07:13] [Thread-24/INFO]: --------------------
+[18:07:13] [Thread-24/INFO]: [CoreProtect] Version 20.1 is now available.
+[18:07:13] [Thread-24/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[18:07:13] [Thread-24/INFO]: --------------------
+[18:07:37] [LoginProcessingThread/INFO]: UUID of player AllanStrat is f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+[18:07:38] [Server thread/INFO]: AllanStrat joined the game
+[18:07:38] [Server thread/INFO]: AllanStrat[/201.220.139.151:38086] logged in with entity id 464 at ([Murder_world]13423.433638122831, 72.00001, 2853.2467259143045)
+[18:07:48] [LoginProcessingThread/INFO]: UUID of player AllanDev is bdc83502-6d75-4c26-a633-729e9ed81aee
+[18:07:49] [Server thread/INFO]: AllanDev joined the game
+[18:07:49] [Server thread/INFO]: AllanDev[/201.220.139.151:46239] logged in with entity id 3435 at ([Murder_world]13423.433638122831, 72.00001, 2853.2467259143045)
+[18:08:04] [Server thread/INFO]: AllanStrat issued server command: /tpall
+[18:08:13] [Server thread/INFO]: CONSOLE issued server command: /eco give AllanDev 100
+[18:08:13] [Server thread/INFO]: $100 added to AllanDev account. New balance: $1,800
+[18:08:13] [Server thread/INFO]: CONSOLE issued server command: /tell AllanDev &c&lKILL &7+100&a$
+[18:08:13] [Server thread/INFO]: [me -> AllanDev] KILL +100$
+[18:08:13] [Server thread/INFO]: CONSOLE issued server command: /tell AllanStrat &7better luck next time :(
+[18:08:13] [Server thread/INFO]: [me -> AllanStrat] better luck next time :(
+[18:08:13] [Server thread/INFO]: CONSOLE issued server command: /tell AllanDev &a&lWINNER &7congrats, you won the game!
+[18:08:13] [Server thread/INFO]: [me -> AllanDev] WINNER congrats, you won the game!
+[18:08:13] [Server thread/INFO]: CONSOLE issued server command: /eco give AllanDev 300
+[18:08:13] [Server thread/INFO]: $300 added to AllanDev account. New balance: $2,100
+[18:08:23] [Server thread/INFO]: CONSOLE issued server command: /tell AllanStrat &7(&e&l!&7) &c&lSantaFactory &7has &cended!
+[18:08:23] [Server thread/INFO]: [me -> AllanStrat] (!) SantaFactory has ended!
+[18:08:23] [Server thread/INFO]: CONSOLE issued server command: /tell AllanDev &7(&e&l!&7) &c&lSantaFactory &7has &cended!
+[18:08:23] [Server thread/INFO]: [me -> AllanDev] (!) SantaFactory has ended!
+[18:08:40] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[18:08:41] [luckperms-command-executor/INFO]: [LP] Click the link below to open the editor:
+[18:08:41] [luckperms-command-executor/INFO]: https://luckperms.net/editor/ZWAyYyIvDt
+[18:09:15] [Server thread/INFO]: AllanStrat issued server command: /lp applyedits oxxJ6684jG
+[18:09:16] [luckperms-command-executor/INFO]: [LP] LOG > (AllanStrat) [G] (member)
+[18:09:16] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add murdermystery.lastwords.* true
+[18:10:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:10:19] [Server thread/INFO]: There are 2 out of maximum 1,337 players online.
+[18:10:19] [Server thread/INFO]: default: AllanDev, AllanStrat
+[18:12:26] [Server thread/INFO]: AllanStrat issued server command: /tab reload
+[18:12:26] [Server thread/INFO]: [TAB] Disabled in 0ms
+[18:12:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: tab
+[18:12:26] [Server thread/INFO]: [TAB] Enabled in 7ms
+[18:12:29] [Server thread/INFO]: AllanStrat issued server command: /shop
+[18:12:41] [Server thread/INFO]: AllanStrat issued server command: /shop
+[18:12:42] [Server thread/INFO]: [Murder Mystery] You now got 1 DETECTIVE passes!
+[18:13:26] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:13:26] [Server thread/INFO]: There are 2 out of maximum 1,337 players online.
+[18:13:26] [Server thread/INFO]: default: AllanDev, AllanStrat
+[18:16:34] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:16:34] [Server thread/INFO]: There are 2 out of maximum 1,337 players online.
+[18:16:34] [Server thread/INFO]: default: AllanDev, AllanStrat
+[18:17:27] [Server thread/INFO]: AllanStrat lost connection: Disconnected
+[18:17:27] [Server thread/INFO]: AllanStrat left the game
+[18:19:41] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:19:41] [Server thread/INFO]: There are 1 out of maximum 1,337 players online.
+[18:19:41] [Server thread/INFO]: default: AllanDev
+[18:22:49] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:22:49] [Server thread/INFO]: There are 1 out of maximum 1,337 players online.
+[18:22:49] [Server thread/INFO]: default: AllanDev
+[18:23:18] [Server thread/INFO]: AllanDev lost connection: Disconnected
+[18:23:18] [Server thread/INFO]: AllanDev left the game
+[18:25:56] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:25:56] [Server thread/INFO]: There are 0 out of maximum 1,337 players online.
+[18:29:04] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:29:04] [Server thread/INFO]: There are 0 out of maximum 1,337 players online.
+[18:32:11] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:32:11] [Server thread/INFO]: There are 0 out of maximum 1,337 players online.
+[18:35:19] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:35:19] [Server thread/INFO]: There are 0 out of maximum 1,337 players online.
+[18:38:26] [Server thread/INFO]: CONSOLE issued server command: /list 
+[18:38:26] [Server thread/INFO]: There are 0 out of maximum 1,337 players online.
