@@ -1,2 +1,9 @@
-
+logs
 *.zip
+cache
+wepif.yml
+Murder_world/advancements/*
+Murder_world/playerdata/*
+Murder_world/stats/*
+plugins/bStats/config.yml
+plugins/WorldEdit/.archive-unpack/*
