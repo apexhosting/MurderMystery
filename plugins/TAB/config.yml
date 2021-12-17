@@ -1,10 +1,10 @@
 # Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
 
 #changing nametags, affecting sorting, collision rule
-change-nametag-prefix-suffix: true
+change-nametag-prefix-suffix: false
 
 #prefix/suffix in tablist
-change-tablist-prefix-suffix: true
+change-tablist-prefix-suffix: false
 
 #header/footer
 enable-header-footer: true
@@ -58,7 +58,7 @@ Users:
 classic-vanilla-belowname:
 
   #enabling the feature
-  enabled: true
+  enabled: false
   
   #number or numeric placeholder, supports per-player placeholders
   number: "%health%"
@@ -218,8 +218,8 @@ assign-groups-by-permissions: false
 anti-override:
   scoreboard-teams: true
   scoreboard-objectives: true
-  tablist-names: true
-  usernames: true
+  tablist-names: false
+  usernames: false
   
 #permanently invisible nametags
 invisible-nametags: false

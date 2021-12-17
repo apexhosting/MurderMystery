@@ -201,7 +201,7 @@ In-Game:
     Picked-Up-Gold: "&ePicked up gold!"
     Previous-Role-Left-Title: "&cPrevious %role% has left!"
     Previous-Role-Left-Subtitle: "&cSelecting new %role%!"
-    Corpse-Last-Words: "&7%player%&e's last words:"
+    Corpse-Last-Words: "&cLast words:"
     Murderer-Get-Sword: "&eThe Murderer gets their sword in &c%time% &eseconds!"
     Special-Blocks:
       Cauldron-Drink-Potion: "&cPlease drink your current potion!"
@@ -236,10 +236,20 @@ In-Game:
       Bow-Shot-For-Gold: "&a+1 Bow Shot!"
       Bow-Shot-Subtitle: "&eYou collected 10 gold and got an arrow!"
     Last-Words:
-      Default: "&fPlease respawn :("
-      Meme: "&fDespacito 2 is confirmed by God"
-      Rage: "&fWHY YOU KILLED ME?!!?"
-      Pro: "&fIt was lagging..."
+      'default':
+        Message: "&fPlease respawn :("
+      'meme':
+        Message: "&fDespacito 2 is confirmed by God"
+        Permission: "murdermystery.lastwords.meme"
+      'rage':
+        Message: "&fWHY YOU KILLED ME?!!?"
+        Permission: "murdermystery.lastwords.rage"
+      'pro':
+        Message: "&fIt was lagging..."
+        Permission: "murdermystery.lastwords.pro"
+      'hacker':
+        Message: "Turn off your hacks..."
+        Permission: "murdermystery.lastwords.hacker"
     Game-End-Messages:
       Titles:
         Win: "&aYOU WIN!"

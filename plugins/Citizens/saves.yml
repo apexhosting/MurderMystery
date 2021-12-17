@@ -1,0 +1,101 @@
+# Citizens NPC Storage
+
+last-created-npc-id: 1
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid-name: villager
+      cached-skin-uuid: a05deec0-7a0e-4076-87cb-dc5dcaca8586
+    name: §cShop
+    uuid: bfc61351-e257-4c80-a1f3-bcb39f8831c4
+    traits:
+      sneak:
+        sneaking: false
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: 16.496735
+        world: Murder_world
+        x: '13429.4743'
+        y: '72.0'
+        z: '2850.3'
+        yaw: '16.4967'
+        pitch: '-6.2352'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: v75SdyMXLH5IarPgCOB9ZvQcniSEnGihtCyqgFlvynlHrlTvXEXGhXtlzSiaujQkuAVRJOADED7vfoBPFf0bPvhnvhdpUfzeAoF1OBabg0DdVQb7+/kcyaKsdLx6TMQbXsoZHT+JD2nsAQVovrBa1x/jUTQi3o65SMWKo6L+ZPcCLFs3ocZ9Y7n2R4WObk+9Rrg67+QmRbGwQp+q8wQaS1fChhmQWcuBrGr8jxpsA2/mofwSE8mEO0bexv7Xal1tsUiqKj+iWVbTYZwrIAtTrgVjPtkPXi83vqHotiV3zyCqy4vcO16gsQb3mapBJLWPw9gKIDS2b33GKBthBH3jKRpsdfi+UAMY+gHYSwD6Vu6a93HsB6YBZzr8xynIJqNkHAVbYRDZk77gMU1Wt6YiDGmOYCPNNLQF0BZfYSZ5u7eGK9kleUUGjYW58HL1DBiVmiA70qIZ/QYVop2Bk1Hh54sGKf7l0x2e74PPb6Zw4OTuhWSuBYeSjuHwTHcsEFUkzoCuUmeaikY4Axluq1M9GMqiUX9q+7CvckbStchOEbFIkMdpUQYpU5P+SgwRzbIdYLgDdsm0Sku74vec9RTchA87wYfwfMG+ZHXfu3OezJx+VdxTWxcMbr3BOnH0TQJGgdL099tAZ6vXQ40VGmOnE9AgImvlWhAf/xH/N5V3knc=
+        skinName: villager
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzOTU4MTM5OTk1NCwKICAicHJvZmlsZUlkIiA6ICJhMDVkZWVjMDdhMGU0MDc2ODdjYmRjNWRjYWNhODU4NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaWxsYWdlciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83YWY3YzA3ZDFkZWQ2MWIxZDMzMTI2ODViMzJlNDU2OGZmZGRhNzYyZWM4ZDgwODg5NWNjMzI5YTkzZDYwNmUwIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: shop
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,inventory,location,scoreboardtrait,owner,type,commandtrait,equipment,sneak,skintrait,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid-name: detective
+      cached-skin-uuid: 0939f0f0-eba1-45ac-a0f5-bbbc9bdba48b
+    name: §aJoin Random Game
+    uuid: d0a6da19-840b-4ae3-b8c1-abb2cc455c84
+    traits:
+      sneak:
+        sneaking: false
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm randomjoin
+            hand: RIGHT
+            player: true
+            op: false
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      type: PLAYER
+      spawned: true
+      location:
+        bodyYaw: -25.653198
+        world: Murder_world
+        x: '13417.3756'
+        y: '72.0'
+        z: '2850.3'
+        yaw: '-25.6532'
+        pitch: '2.3148'
+      skintrait:
+        fetchDefaultSkin: true
+        signature: gS0cl992HIZOa5vbNro9v+Qd9GmYEamSAMQFGnUwrwQJhbbUiFqmzr7VJlPXexWpBDUbZqYYB5n7ooSAkzRVkuYxj0M6ozGRmU9H741HUHEsddz7noGOqWTyhXjd3mrgxnAaCEK1F1wBVBij6IXUWaF8u8PU4rcH3lsljxWfX+Pwl5T+mB3eT5mqmw98mETq3v8PxrksvPfXgR59ElonVPSmWQ0Y+u9vK/VhKSG0KPHJOu7Yxw+jkULacIQ7qzJxz3mHJGcKS1fak2RNi7OWNt8Pkpm3xNO/dZFDFut0fGxrjvk1HnVmO4An93QYbgIbqUCRBEZDyOUyroSqdYYIlnFYeiDxAESdVEj6I1q0m9/xQYbFQWN8LGy8qGRn99e1mxRxlzY58MRkcRi15UVK2V0MTjdrUllBIll5BsHZR3vrnHixkUKZAKRwmRYPLfwplF+uazjgC/ellNSZt4xZfIuNr3Z4okOR0+9F5uyviTdx1wcBFT8N7M65v1QnZqCcMC+qgEH7PdemX2yJOh8ZJSmTMUfXmpP/8/ltciMc9MvlEg3a1EwunlnbSw83U19UDioh3oHvsepGmMbOILxJTphwKHsoSwK0rEjCYj6T9bYmc3t+D0NPsLqX3e9Mz9XB4KIkBRneJn7Lq+zXD9YB9XqaOGSeMnW0iJGLNTJAuiQ=
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYzOTU4MTIyNzk2MCwKICAicHJvZmlsZUlkIiA6ICIwOTM5ZjBmMGViYTE0NWFjYTBmNWJiYmM5YmRiYTQ4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRlY3RpdmUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ5YzRjN2VlODc2MjFmNTYzOWVjNTc4ZWJhYzgyMmYyZDAxNTVmMmM4NjM4ZjIzMmM4NWE5OTIxNGNmOWViZSIKICAgIH0KICB9Cn0=
+        updateSkins: false
+        skinName: detective
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+    traitnames: spawned,inventory,location,scoreboardtrait,owner,type,equipment,commandtrait,hologramtrait,skintrait,sneak,mounttrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
