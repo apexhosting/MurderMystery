@@ -8,6 +8,3 @@ updateUsersHomesFormat: true
 banFormatChange: true
 userMapRepaired: true
 updateUsersIgnoreListUUID: true
-updateUsersStupidLegacyPathNames: true
-updateUsersMailList: true
-updatePurgeBrokenNpcAccounts: true

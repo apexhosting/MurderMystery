@@ -1,5 +1,5 @@
 # PlaceholderAPI
-# Version: 2.10.9
+# Version: 2.10.4
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
@@ -15,9 +15,3 @@ boolean:
   'true': 'yes'
   'false': 'no'
 date_format: MM/dd/yy HH:mm:ss
-expansions:
-  player:
-    ping_color:
-      medium: '&e'
-      high: '&c'
-      low: '&a'

@@ -6,7 +6,7 @@
 #
 # CONFIGURATION
 # Do not change this value!
-config-version: 1
+config-version: 2
 #
 # Seconds to Disappear
 # This variable sets how many seconds the dead body will be shown. After that time, the dead body will disappear.
@@ -65,3 +65,19 @@ inventoryTitle: 'Dead body of {player}'
 textAbove:
  - '&7Dead body of &c&l{player}'
  - '&7It will disappear in &c{timer}'
+#
+# Text opacity
+# This variable sets the opacity of the text of the hologram above a Corpse.
+# You can use: lowest, low, medium, hard, harder, full
+textOpacity: lowest
+#
+# Line spacing
+# This variable sets the line spacing of the text above the Corpse.
+# Minimum: 0.27 / Maximum: 1.0 (Default: 0.27)
+lineSpacing: 0.27
+#
+# Worlds
+# This variable sets the worlds where dead players will spawn a Corpse
+# Use '*' to add all worlds. Add "-" in front a world to remove it (for example: '-world_nether').
+worlds:
+ - '*'

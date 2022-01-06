@@ -1,14 +1,10 @@
 Welcome:
-  location: Murder_world, 13423.500, 76.263, 2850.500
   lines:
   - 'ICON: diamond_sword'
   - '&3&lWelcome to Murder Mystery'
   - '&2&lClick the Sign to begin'
-i1:
-  location: Murder_world, 13417.383, 74.673, 2850.305
-  lines:
-  - '&eRight Click'
-i2:
-  location: Murder_world, 13429.470, 74.673, 2850.300
-  lines:
-  - '&eRight Click'
+  position:
+    world: Murder_world
+    x: 13423.5
+    y: 76.263
+    z: 2850.5

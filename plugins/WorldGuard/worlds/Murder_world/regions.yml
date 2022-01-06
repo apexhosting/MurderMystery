@@ -10,20 +10,12 @@
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
 regions:
-    spawn:
-        min: {x: 13416, y: 72, z: 2850}
-        max: {x: 13430, y: 81, z: 2864}
-        members: {}
-        flags: {feed-max-hunger: 20, pvp: deny, feed-min-hunger: 20, natural-hunger-drain: deny}
-        owners: {}
-        type: cuboid
-        priority: 0
     __global__:
         members: {}
         flags: {use: allow, block-trampling: deny, lighter: deny, vehicle-destroy: deny,
-            chest-access: deny, pvp: allow, ride: deny, firework-damage: deny, mob-spawning: deny,
-            vehicle-place: deny, build: deny, item-frame-rotation: deny, potion-splash: allow,
-            damage-animals: deny, tnt: deny}
+            chest-access: deny, pvp: allow, firework-damage: deny, mob-spawning: deny,
+            ride: deny, vehicle-place: deny, build: deny, item-frame-rotation: deny,
+            potion-splash: allow, damage-animals: deny, tnt: deny}
         owners: {}
         type: global
         priority: 0
