@@ -17,6 +17,9 @@
 #    ru - Русский язык              es - Idioma español
 #    nl - Nederlandse taal          pt_br - Português (Brasil)
 #    tr - Türk dili                 sk - Slovenský jazyk
+#    ja - Japanese                  af - Afrikaans
+#    dk - Danish                    th - Thai
+#    uk - Ukrainian
 locale: default
 
 # Enable bossbar support?
@@ -34,7 +37,7 @@ Classic-Gameplay-Time: 270
 # Should we hook into bungee cord? (If you wanna use arena per server option)
 # You STILL need to use external addon for HUB server game signs
 # Murder Mystery doesn't offer that addon.
-# Check here for more info: https://wiki.plajer.xyz/minecraft/murdermystery/addons.php#bungee-signs-not-official
+# Check here for more info: https://wiki.plugily.xyz/murdermystery/support/servertips#bungeecord-lobby-signs
 BungeeActivated: false
 
 # Enable this option when you're using MySQL, otherwise it won't work.
@@ -51,37 +54,108 @@ InventoryManager: true
 # You can edit the formatting in language.yml
 ChatFormat-Enabled: true
 
+# Should we disable all chat related stuff?
+# It will disable the separated chat, for example
+Disable-Separate-Chat: false
+
+# Should we disable death messages, so the player dies without other recognizes it
+# It will not broadcast the death message to all ;)
+Hide-Death: false
+
 # Should we override corpses spawn from CorpsesReborn plugin?
 # When player will die outside game corpse won't be spawned!
 # Disable this if you don't want this!
 # WARNING: If disabled, two corpses will be spawned when player in-game dies
 Override-Corpses-Spawn: true
 
+# Which item should be your Murderer sword?
+Murderer-Sword-Material: IRON_SWORD
+
 # How many blocks per tick sword thrown by murderer should fly
 # Please avoid high values as it might look like the sword is
 # blinking each tick
 Murderer-Sword-Speed: 0.65
 
-# Basic permissions for game, permissions explained here: https://wiki.plajer.xyz/minecraft/murdermystery/cmds_and_perms.php#basic-permissions
+# How many blocks should the sword fly
+Murderer-Sword-Fly-Range: 20
+
+# In what radius should we hit the players
+Murderer-Sword-Fly-Hit-Range: 0.5
+
+#How long should be the sword attack after throw cooldown in seconds?
+#Its normal lower than Murderer-Sword-Fly-Cooldown!
+Murderer-Sword-Attack-Cooldown: 1
+
+#How long should be the sword fly cooldown in seconds?
+Murderer-Sword-Fly-Cooldown: 5
+
+#Should we change spawner mode to spawn on all spawners instant of random one
+Change-Gold-Spawner-Mode-To-All: false
+
+#Should we disable the gold spawn limit (It does not spawn more gold than spawner locations)
+Disable-Gold-Limiter: false
+
+#How much arrows should a player with bow gets when he pick up a gold ingot?
+Detective-Gold-Pick-Up-Arrows: 1
+
+#How much gold should a player need to get a bow
+Gold-For-Bow: 10
+
+#How much arrows should the player get? (Cause: Bow because enough gold collected)
+Gold-Bow-Arrows: 3
+
+#How much arrows should the detective gets on game start or when a player get a bow?
+Detective-Default-Arrows: 3
+
+#How much arrows should the fake detective get? (Cause: Player pick up bow after detective died)
+Detective-Fake-Arrows: 3
+
+#How much arrows should the player get when the prayer gives a bow to him?
+Detective-Prayer-Arrows: 2
+
+#How long should be the bow shoot cooldown in seconds?
+Detective-Bow-Cooldown: 5
+
+#Should Detectives be killed if they kill a innocent?
+Enable-Kill-Detective-If-Innocent-Killed: true
+
+#Should there be a innocent locator
+Enable-Innocent-Locator: true
+
+#Should the murderer get speed effect?
+Speed-Effect-Murderer:
+  Enabled: true
+  #Enter a multiplier (min 2, max 10)
+  Speed: 3
+
+# Play sound when a user gets score.
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+AddScore-Sound: ""
+
+# Basic permissions for game, permissions explained here: https://wiki.plugily.xyz/murdermystery/setup/cmdsandperms#basic-permissions
 Basic-Permissions:
   Full-Games-Permission: "murdermystery.fullgames"
   # <arena> represents arena name (NOT MAP NAME!), for example: 'murdermystery.join.MM02'
   # use 'murdermystery.join.*' to enable access to all arenas
   Join-Permission: "murdermystery.join.<arena>"
 
+# Should we enable short commands such as /start and /leave
+Enable-Short-Commands: false
+
 # Should /mm leave command be blocked?
 Disable-Leave-Command: false
+
+# Should the /mma delete command awaits the confirmation to delete the arena?
+Deleting-Arena-Needs-Confirmation: true
 
 # Should players get no fall damage?
 Disable-Fall-Damage: false
 
 # Commands which can be used in game, remove all of them to disable
-Whitelisted-Commands:
-  - me
-  - help
+Whitelisted-Commands: []
 
 # Enable in game rewards? See rewards.yml for more...
-Rewards-Enabled: false
+Rewards-Enabled: true
 
 # Should we block every not Murder Mystery associated commands in game?
 Block-Commands-In-Game: true
@@ -101,6 +175,16 @@ Nametags-Hidden: true
 # - black (restarting) stained glass
 Signs-Block-States-Enabled: true
 
+
+Arena-Selector:
+  # Change items of arena selector
+  State-Item:
+    Waiting: LIME_wool
+    Starting: YELLOW_wool
+    In-Game: RED_wool
+    Ending: RED_wool
+    Restarting: RED_wool
+
 Update-Notifier:
   # Should we check for updates on plugin start/after admin join?
   # You REALLY should have this true!
@@ -109,47 +193,8 @@ Update-Notifier:
   # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
   Notify-Beta-Versions: true
 
-
-#How long should be the sword attack after throw cooldown in seconds?
-#Its normal lower than Murderer-Sword-Fly-Cooldown!
-Murderer-Sword-Attack-Cooldown: 1
-
-#How long should be the sword fly cooldown in seconds?
-Murderer-Sword-Fly-Cooldown: 5
-
-#How long should be the bow shoot cooldown in seconds?
-Detective-Bow-Cooldown: 5
-
-#How much arrows should a player with bow gets when he pick up a gold ingot?
-Detective-Gold-Pick-Up-Arrows: 1
-
-#How much arrows should the detective gets on game start or when a player get a bow?
-Detective-Default-Arrows: 3
-
-#How much arrows should the player get when the prayer gives a bow to him?
-Detective-Prayer-Arrows: 2
-#Should Detectives be killed if they kill a innocent?
-Enable-Kill-Detective-If-Innocent-Killed: true
-
-#Should we change spawner mode to spawn on all spawners instant of random one
-Change-Gold-Spawner-Mode-To-All: false
-
-#Should we disable the gold spawn limit (It does not spawn more gold than spawner locations)
-Disable-Gold-Limiter: false
-
-#How much gold should a player need to get a bow
-Gold-For-Bow: 10
-# Should we disable all chat related stuff?
-# It will disable the separated chat, for example
-Disable-Separate-Chat: false
-#Should there be a innocent locator
-Enable-Innocent-Locator: true
-
-Arena-Selector:
-  Items:
-    waiting-for-players: lime_concrete
-    starting: yellow_concrete
-    other: red_concrete
+#Disable Party features of external party plugins (such as PAF, Parties ...)
+Disable-Parties: true
 
 #Add trails that you want to blacklist from all trails(particles)
 Blacklisted-Trails:
@@ -157,8 +202,8 @@ Blacklisted-Trails:
   - "block_crack"
   - "item_crack"
   - "block_dust"
-# Should the /mma delete command awaits the confirmation to delete the arena?
-Deleting-Arena-Needs-Confirmation: true
-# Don't modify
+
+# Don't modify.
 Version: 24
+
 # No way! You've reached the end! But... where's the dragon!?

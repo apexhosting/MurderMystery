@@ -1,0 +1,242 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+
+last-created-npc-id: 4
+npc:
+  '1':
+    metadata:
+      cached-skin-uuid: c7fddb9a-adfd-4be3-b326-d700df252e88
+      cached-skin-uuid-name: santa
+    name: §c§lSANTA FACTORY
+    uuid: 86bbc723-c241-44a1-b7c1-4f57f2b702d7
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm join SantaFactory
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: VQEJFmrjBYK2XyxlhbFUSAkwyv29d7mcH9lNSduAuqbbdx0ApCVLTG2xKKeQ94gxMVhf3TRlbL6amUIEvl72UDWInhROVNLU79/jjYiqZzQIEtQXVl6n95Net9BVnzmk5GhSbge/qKBvXT/i/oCP9gC6Zy/Qk8uLFdRAnuW7Iqw1fcPmEd+mF/GXRL2+SDhTpokyjmgYhWkHp9OL9o24gHdTwrDYl0aXiIKUOHsnylVqlby/YdnsKlnAwqyf2Vg72S6JtEq9yOsCnl4F69HfYqb7ymVz6zphPxglNLoVxhJMEwENCggWg2bmbEV14SxdwvkkpTQzG441sLvGAEEcwMXcCoNav3NhesafG+wV7u/ZzExQ3OuxLA7BeQg6/uBivtVq/ULl2gSbVZaeUetnH6ZpB05g/Zwtfolhq/czNbtw8dV0vBw+ZlIko5bcurPGCmJ0p2NvXHijOHUz+c2KauNtMtkuOBMw+LhS9luB6SYScmLggJ2VfDe1QehBjlBO3sF0lhxuNjyPDf1TJGisj65wDOa7L9UlqI0eJYde0P+SC36r8MIuSrw3aGTKsyKn5N0yJNFRfWtSucTYSvHJHEz/vfS93jKS94SnWqxj79lI9xRXH5CXnGaqwn6wqbF/LFEtqRnAfUhbZF7aXYyllYlX4PiguIjry3K0I+B7J9s=
+        skinName: santa
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzNjM3OTE3MCwKICAicHJvZmlsZUlkIiA6ICJjN2ZkZGI5YWFkZmQ0YmUzYjMyNmQ3MDBkZjI1MmU4OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW50YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZjg2NjgyMWJmYmY1MWMwNWZmNzk4YWYxMDk1NzVhZmZhMThjNzc5MTUxODEwYjUyZTk5YzU0N2MzMzc5ZWI3IgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -138.40942
+        world: murdermystery_world
+        x: '70.5648'
+        y: '111.0'
+        z: '55.4893'
+        yaw: '-138.4094'
+        pitch: '4.7999'
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+    traitnames: spawned,location,mounttrait,commandtrait,skintrait,hologramtrait,owner,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      cached-skin-uuid: bdc83502-6d75-4c26-a633-729e9ed81aee
+      cached-skin-uuid-name: allandev
+    name: §e§lOFFICES
+    uuid: cef04802-8454-4dd8-9c27-1a637ce753a1
+    traits:
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm join Offices
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+      skintrait:
+        fetchDefaultSkin: true
+        signature: kFXmH7cqyXajrZ7Ioy4wrKfKMyaEB67YBCvs6byzVtX2LbxKMHAevlyT3nAIMqJIppZ75OG3O+pC2kdIWX2FYnbDh2hORX4CjuBFoHMlxkMQciDAXot4B1nwB8n0M+F5Z4+/fxhMbh/yt2oSXo8Ksi2DimN/WtdUnLJpBzrw2tT7Fj0m6oI6drYgT4Gd4V+jTmULcoI/mD52H9YTnl8scP6DH+Y3/6/GyT3h/fqivw7Ju3LaU6XkY2h6k5dPJpRjIQPj5iEuYnPRLFx9kFxOPvxGB9taFT2ZPbFGfOFvDsk9CN9i3L9onOkgXSIhjMDRenPQhD7cqNF0f+BVvNbn38ERV6xHB9FtOQZpA4XVNOYq9hlgZtBdQiAQtX2u6zTxUemedQcjzmHGUViZU7WPRVQoVJMepousEZqC0rrStDCCNDJsAfxxoubv+GUB5/5dAS7Ype3pl1xuMoOfe7JgWOZUowDMSncf1tWFIJPYm0BcnSZ7uEbt2nK4D3MpBPR9K4AYpekwvkKRNLnncLp1hmrou9wVoAwKwhpWY6eQCMLa7WCKKaTBPXl2OltHQvC/YvduJIYOeDx/jgX8d4dVBnkn65Aq+cCHHBq0F3ibfuE3CunwKw0iWbjr51SNWaATIbTTyCnqqCxF8EgKwqfc0AEdiuw2dG9SUCa3lb+9LkM=
+        skinName: allandev
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzNjM2OTIxMywKICAicHJvZmlsZUlkIiA6ICJiZGM4MzUwMjZkNzU0YzI2YTYzMzcyOWU5ZWQ4MWFlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGxhbkRldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NmUzOTVkZDcxMzljYWZhNWZlMmZjMTQ1MmZkZGU2MDYxM2IzMGZkYzhhZmNhOGMxYjcxYTZiNDkwZTc1N2UwIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      location:
+        bodyYaw: -149.51257
+        world: murdermystery_world
+        x: '72.3458'
+        y: '111.0'
+        z: '57.6891'
+        yaw: '-149.5126'
+        pitch: '8.8485'
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      spawned: true
+    traitnames: spawned,location,mounttrait,skintrait,commandtrait,owner,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §7§lTOP §4§lKILLS
+    uuid: 0fe75a25-387b-4ff1-b835-83d86e4a89d5
+    traits:
+      location:
+        bodyYaw: 115.84131
+        world: murdermystery_world
+        x: '85.3728'
+        y: '110.0'
+        z: '53.5499'
+        yaw: '115.8413'
+        pitch: '-0.9004'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: EoqQ6N5euGKtt+9O8xXo+fhmaY4V6eBDUFNwKMRjB6n1Gnl+kzYA708QN1Nqwaur93MkPnv00+QCu8f3BcE4D+TMY33XZNATyeQLKgICHgh+MOr4hKBA/7a8NDnwx3JGs5QSiWxqE0JW0zuOz/PViaEufbzisVzwOAmlWI142TsXQvSKWFeoYBB9h4urm8yzJvpOsewFM4P4VgjL7AINZZn9LuahEWtpmVJCu8V2jhDwUd3CnjnXFqY9QjXwnslW0Qhhk0EUIiFxTZ8vPtQWTZWVsu4GXRAwqwr1KjBqgbdpJxRlwu/EsEY6X7B2dB07kVZ+jEUlmGJmsOIKSB7jrgei/OX4Uv1H16cQ2/buL5x9oWZzEeWaUBkzTs/3xY5pOTixmtgI9PMhFcC8+NDUOymt6QsDLEOj0F6elI3HJCOJJCNiQo/tTlAwQ3DnyrCjSq69Rmxitv0sOZUrhRRQ0WmiMEe8ef3N3nbn37vVlnK6mhTYxy6sR6Sd5nj+hCi2y6eTXBejRIJpClIGa+7CTbZJuxteGOT7hj2hk7qzPtn6mg2x5ctjiPjlGhUKJJ89Q07g07xn15/udR6r1AzrF7eLD8oeS0+VTUWIBm2ouxfR93T5l8R0f5EdBD597tYqO9lZkUom3HCDZncOsK0ZHAk0wrMFxU9vu5Zv2A7vIis=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTI0MDE0NzUxNywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      hologramtrait:
+        direction: BOTTOM_UP
+        lineHeight: -1.0
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm top kills
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,location,mounttrait,skintrait,commandtrait,hologramtrait,owner,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §7§lTOP §a§lWINS
+    uuid: c38d2560-7f58-43af-958a-bb19b9b7d940
+    traits:
+      location:
+        bodyYaw: 120.03589
+        world: murdermystery_world
+        x: '86.5155'
+        y: '110.0'
+        z: '55.5047'
+        yaw: '120.0359'
+        pitch: '-1.3502'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: kyIBQGR2dciWnbd1yGioXpx/KVreRmJwD738/Kg+Vb471UhQWSQBJs+gLgNGsNoK8bmrStqNrswury6/juXSD9R9tC8zRgPfyT29vWDEIuT9AYKldGHhmJG527YXmFSMhvtKvfRqDG+2ZqOc1s3XzqxAgmydC9efpOIPBrgfN0/+70z1jMhrR2FCF2wH/WcigLvCGsN88S/LmmBqHVt+6/aOxEDPejgQacrsOFH1UEXaL1iyz0vX/XsXCDjMyL7s9Yez9rAS0kNjuKhA4at7TXuSIb9ANmYQ/xkEgYjCbSRcvsZG+VKf1UJrjjZL/XOOpwvOLWtETAbeRbwuD6N46UoLlcNM+bo1ZA0alNNJD5R4UZwFec9nCOWoiZc7onvWYP/I+/ZVGFKKcNuKTqIJYSq1ILmBCfLzvP2n36+0VeNCrcHFLYSPperI2k1TQ8YbxWQXSs6rRnMcqIo9TUfcAJCMkGcdzJVSoSEFKJvD1u0lfwX24nNm2mG8YuG8AWOhO0kyWe91wqqdfOgw3cG0W7njIP+qtjRIdGu9atFjjpq3ACvF3EHeQIG5b6miRtVMpUOMU16HPJ8gmRlu2m2kh4QZnXEIUAkbn8sgwoXAaBzd7nVoTIG2u3iO5sJrf/Fpvl3qU5NrBvLnVv8ll7hVk9Xt8WkzjvTNIyIU1XK21ow=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzOTU5NTU0NywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm top wins
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,location,mounttrait,commandtrait,skintrait,owner,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      cached-skin-uuid: b4e6d297-cfba-469a-a423-4ffb8da70c39
+      cached-skin-uuid-name: apexhosting
+    name: §d§lSTATS
+    uuid: 24ab5b64-d271-43dc-be04-3960ec96532a
+    traits:
+      location:
+        bodyYaw: 121.795166
+        world: murdermystery_world
+        x: '87.5068'
+        y: '110.0'
+        z: '57.4601'
+        yaw: '121.7952'
+        pitch: '1.1999'
+      spawned: true
+      skintrait:
+        fetchDefaultSkin: true
+        signature: kyIBQGR2dciWnbd1yGioXpx/KVreRmJwD738/Kg+Vb471UhQWSQBJs+gLgNGsNoK8bmrStqNrswury6/juXSD9R9tC8zRgPfyT29vWDEIuT9AYKldGHhmJG527YXmFSMhvtKvfRqDG+2ZqOc1s3XzqxAgmydC9efpOIPBrgfN0/+70z1jMhrR2FCF2wH/WcigLvCGsN88S/LmmBqHVt+6/aOxEDPejgQacrsOFH1UEXaL1iyz0vX/XsXCDjMyL7s9Yez9rAS0kNjuKhA4at7TXuSIb9ANmYQ/xkEgYjCbSRcvsZG+VKf1UJrjjZL/XOOpwvOLWtETAbeRbwuD6N46UoLlcNM+bo1ZA0alNNJD5R4UZwFec9nCOWoiZc7onvWYP/I+/ZVGFKKcNuKTqIJYSq1ILmBCfLzvP2n36+0VeNCrcHFLYSPperI2k1TQ8YbxWQXSs6rRnMcqIo9TUfcAJCMkGcdzJVSoSEFKJvD1u0lfwX24nNm2mG8YuG8AWOhO0kyWe91wqqdfOgw3cG0W7njIP+qtjRIdGu9atFjjpq3ACvF3EHeQIG5b6miRtVMpUOMU16HPJ8gmRlu2m2kh4QZnXEIUAkbn8sgwoXAaBzd7nVoTIG2u3iO5sJrf/Fpvl3qU5NrBvLnVv8ll7hVk9Xt8WkzjvTNIyIU1XK21ow=
+        skinName: apexhosting
+        textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTY1MTIzOTU5NTU0NywKICAicHJvZmlsZUlkIiA6ICJiNGU2ZDI5N2NmYmE0NjlhYTQyMzRmZmI4ZGE3MGMzOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcGV4SG9zdGluZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZmQyMzE5MDNmODMxOTFhYzY1YjNjZjg3MTljYmU0NjNkZTUyZDcwMzk5ZTMxODJlY2I2YjMxNTY5MmI1ZWRiIgogICAgfQogIH0KfQ==
+        updateSkins: false
+      owner:
+        uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
+      type: PLAYER
+      commandtrait:
+        cost: -1.0
+        executionMode: LINEAR
+        experienceCost: -1.0
+        hideErrorMessages: false
+        commands:
+          '0':
+            command: mm stats
+            hand: RIGHT
+            player: true
+            op: true
+            cooldown: 0
+            globalcooldown: 0
+            n: -1
+            delay: 0
+    traitnames: spawned,location,mounttrait,commandtrait,skintrait,owner,scoreboardtrait,inventory,type
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

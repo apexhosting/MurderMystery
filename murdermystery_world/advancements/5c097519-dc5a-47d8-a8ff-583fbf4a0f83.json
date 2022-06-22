@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2022-04-29 21:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2022-04-30 01:07:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2022-04-29 21:47:57 +0000",
+      "minecraft:wooded_hills": "2022-04-30 01:12:29 +0000",
+      "minecraft:plains": "2022-04-29 21:48:24 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2730
+}

@@ -1,4 +1,34 @@
-c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
+f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+  contribdetective: 1
+  contribmurderer: 1
+  deaths: 3
+  gamesplayed: 7
+  highestscore: 0
+  kills: 3
+  loses: 3
+  wins: 4
+  local_pray: 0
+  gold: 0
+  local_kills: 1
+  local_praises: 0
+  local_score: 100
+  murderer_pass: 0
+07c4ddf1-59ae-41aa-90a8-af0e1d22c395:
+  contribdetective: 1
+  contribmurderer: 1
+  deaths: 2
+  gamesplayed: 6
+  highestscore: 100
+  kills: 3
+  loses: 2
+  wins: 4
+  murderer_pass: 0
+  local_pray: 0
+  gold: 0
+  local_kills: 1
+  local_praises: 0
+  local_score: 100
+5c097519-dc5a-47d8-a8ff-583fbf4a0f83:
   contribdetective: 1
   contribmurderer: 1
   deaths: 0
@@ -8,33 +38,18 @@ c0a68af6-e4ee-4b2b-b6bd-4287d97f0755:
   loses: 0
   wins: 0
   murderer_pass: 0
-f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
-  contribdetective: 1
-  contribmurderer: 1
-  deaths: 2
-  gamesplayed: 3
-  highestscore: 30
-  kills: 1
-  loses: 2
-  wins: 1
-  murderer_pass: 0
-  local_pray: 0
-  gold: 0
-  local_kills: 0
-  local_praises: 0
-  local_score: 30
-bdc83502-6d75-4c26-a633-729e9ed81aee:
+96e3e530-ef4c-4aa1-a494-5e872f80a889:
   contribdetective: 1
   contribmurderer: 1
   deaths: 1
-  gamesplayed: 3
+  gamesplayed: 1
   highestscore: 0
-  kills: 2
+  kills: 0
   loses: 1
-  wins: 2
+  wins: 0
   murderer_pass: 0
   local_pray: 0
   gold: 0
   local_kills: 0
   local_praises: 0
-  local_score: 300
+  local_score: 0

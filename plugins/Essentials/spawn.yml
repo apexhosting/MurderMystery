@@ -1,8 +1,9 @@
-spawns: 
-  default: 
-    world: Murder_world
-    x: 13423.433638122831
-    y: 72.0625
-    z: 2853.2467259143045
-    yaw: -177.76616
-    pitch: -3.75027
+spawns:
+  default:
+    world: ac59b73c-daa4-4caa-8537-048d2dc12f0b
+    world-name: murdermystery_world
+    x: 66.4496463280791
+    y: 110.0
+    z: 43.504825184749976
+    yaw: -47.68281555175781
+    pitch: 1.3499244451522827
