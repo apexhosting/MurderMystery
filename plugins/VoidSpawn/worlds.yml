@@ -1,0 +1,10 @@
+version: 2
+murdermystery_world:
+  spawn:
+    x: 66.87387931313339
+    y: 110.0
+    z: 43.82668802157069
+    pitch: 12.299768
+    yaw: -41.51124
+    world: murdermystery_world
+  mode: spawn
